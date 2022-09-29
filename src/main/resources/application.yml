@@ -1,0 +1,38 @@
+#指定项目启动使用的端口
+server:
+  port: 80
+
+spring:
+  #指定应用的名称
+  application:
+    name: reggie_take_out
+  #设置数据源的信息
+  datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/reggie?characterEncoding=utf-8&useSSL=false&useUnicode=true&zeroDateTimeBehavior=convertToNull&allowPublicKeyRetrieval=true
+      username: root
+      password: root
+      type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis-plus:
+  configuration:
+    #在映射实体或者属性时，将数据库中表名和字段名中的下划线去掉，按照驼峰命名法映射，默认开启，可以不用手动设置
+    #如 表名 address_book --> 类名AddressBook  字段名user_name --> 属性名UserName
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-aliases-package: com.reggie.entity
+  global-config:
+    db-config:
+      id-type: ASSIGN_ID
+      logic-delete-value: isDelete
+      logic-delete-field: 1
+      logic-not-delete-value: 0
+#  mapper-locations: classpath*:/com/reggie/mapper
+reggie:
+  path: G:\Code WorkSpace\Reggie\images\
+pagehelper:
+  dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  page-size-zero: true
+  params: count=countSql

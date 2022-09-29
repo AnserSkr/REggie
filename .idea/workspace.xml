@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7cf8bb97-6151-4746-b9f7-792de46d2535" name="Default Changelist" comment="已实现员工管理，菜品分类管理，具体菜品管理，套餐管理所有功能。订单明细与所有手机端编码未实现">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Reggie_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8d1042f4-e06f-494c-8494-6cb2488a8f8c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8d1042f4-e06f-494c-8494-6cb2488a8f8c/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file-1422229274/file-1151520053.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file-1422229274/file-1927157083.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file-1422229274/file1777583887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file-1585291594/file-1089332130.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file-1585291594/file1952822704.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file-1585291594/file697714178.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file-1938404848/file-1899391028.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file-2104962404/file-61597140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file-2104962404/file-860054756.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file-220792802/file-1112156109/file-2067506846.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file-220792802/file-1112156109/file-235946665.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file-220792802/file-1112156109/file1893969677.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file-220792802/file-262294882.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file-220792802/file-527804554.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file-220792802/file86909474.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file482972310/file1132040253.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file482972310/file1735272041.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/file703619412/file182666865.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/00874a5e-0df2-446b-8f69-a30eb7d88ee8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/057dd338-e487-4bbc-a74c-0384c44a9ca3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/0a3b3288-3446-4420-bbff-f263d0c02d8e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/0f252364-a561-4e8d-8065-9a6797a6b1d3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/0f4bd884-dc9c-4cf9-b59e-7d5958fec3dd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/127c9ec3-4971-4e39-91a4-2e5873ff0f99.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1405081e-f545-42e1-86a2-f7559ae2e276.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1ab65cc9-61e5-46c4-912b-4b26f6061114.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1fdbfbf3-1d86-4b29-a3fc-46345852f2f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2a2e9d66-b41d-4645-87bd-95f2cfeed218.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2a50628e-7758-4c51-9fbb-d37c61cdacad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2e96a7e3-affb-438e-b7c3-e1430df425c9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/30537d05-1ffb-4800-a072-eed185f68a7e.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3cc4212b-36aa-46ff-a49c-4f708312521a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3fabb83a-1c09-4fd9-892b-4ef7457daafa.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/583df4b7-a159-4cfc-9543-4f666120b25f.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/5b8d2da3-3744-4bb3-acdc-329056b8259d.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/5e330ebf-146d-4d47-9b64-ef9f84ef7365.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/61d20592-b37f-4d72-a864-07ad5bb8f3bb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/740c79ce-af29-41b8-b78d-5f49c96e38c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/7a44be34-93d1-4b4c-b56f-9cc1f0e6219b.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/8dcfda14-5712-4d28-82f7-ae905b3c2308.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/95c2beae-c420-4031-9c4e-8d097bc0cc4e.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/9ec6fc2d-50d2-422e-b954-de87dcd04198.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/9edaa734-be57-40b6-b6ef-d3ac37806f02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/a53a4e6a-3b83-4044-87f9-9d49b30a8fdc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/b396f09a-caae-44a4-81aa-8374f1aea17f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bcc239f9-ccc9-4e27-8a1c-e36ae5074f8c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/c99e0aab-3cb7-4eaa-80fd-f47d4ffea694.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/d2108fa5-6d5e-4767-a126-6552951e11a7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/d2f61d70-ac85-4529-9b74-6d9a2255c6d7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/e3fec63c-fca5-4f62-b13e-505e1cefa975.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/e476f679-5c15-436b-87fa-8c4e9644bf33.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ee04a05a-1230-46b6-8ad5-1a95b140fff3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ef2b73f2-75d1-4d3a-beea-22da0e1421bd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/f966a38e-0780-40be-bb52-5699d13cb3d9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/f9cb1ee2-36ad-44b9-876e-7d0360159cb5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fef220fb-0e46-44b9-ae3a-8a3a5ce25825.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ff6b8033-754d-4293-9c1d-430f34ba8a08.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/ReggieApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/common/BaseContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/common/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/common/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/common/JacksonObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/common/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/config/SpringMVCSupportConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/dto/DishDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/dto/SetmealDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/DishFlavor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/Setmeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/SetmealDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/filter/LoginCheckFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/mapper/DishFlavorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/mapper/DishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/mapper/SetmealDishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/mapper/SetmealMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/DishFlavorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/DishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/SetmealDishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/SetmealDtoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/SetmealService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/DishFlavorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/SetmealDishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/SetmealDtoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/SetmealServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/web/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/web/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/web/DishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/web/EmployController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/web/SetmealController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/web/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/food.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/member.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/404-images/404-cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/404-images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_back@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_clean@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/icon_index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/icon_upload@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/jine_m-2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/renshu@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/xiangmujine@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/img_brand01@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/img_denglu_bj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/demo/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/order/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/axios/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/vue/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/reggie/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/reggie/mapper/DishMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/reggie/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/DIN-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/DIN-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/cart_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/checked_false.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/checked_true.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/favico.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/headPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/locations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/mainBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/no_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/no_wifi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/orders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/subtract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/women.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/vant.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/add-order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/address-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/no-wify.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/pay-success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/add-order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/address-edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/address.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/no-wify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/pay-success.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/vant.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/reggie/common/BaseContextTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/reggie/service/CateGoryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/reggie/service/DishFlavorServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/reggie/service/DishServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/reggie/service/EmployServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/reggie/service/SetmealServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/suanfa/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/food.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/member.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/404-images/404-cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/404-images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/btn_back@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/btn_clean@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/btn_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/icon_index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/icon_upload@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/jine_m-2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/renshu@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/xiangmujine@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/img_brand01@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/img_denglu_bj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/login/login-l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/login/login-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/login/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/combo/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/combo/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/demo/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/food/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/food/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/member/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/member/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/order/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/axios/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/vue/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/common/BaseContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/common/CustomException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/common/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/common/JacksonObjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/common/MyMetaObjectHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/common/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/config/SpringMVCSupportConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/dto/DishDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/dto/SetmealDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/entity/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/entity/Dish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/entity/DishFlavor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/entity/Setmeal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/entity/SetmealDish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/mapper/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/mapper/DishFlavorMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/mapper/DishMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/mapper/DishMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/mapper/SetmealDishMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/mapper/SetmealMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/DishFlavorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/DishService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/SetmealDishService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/SetmealDtoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/SetmealService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/DishFlavorServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/DishServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/SetmealDishServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/SetmealDtoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/SetmealServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/web/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/web/CommonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/web/DishController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/web/SetmealController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/reggie/web/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/api/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/api/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/DIN-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/DIN-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/cart_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/checked_false.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/checked_true.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/favico.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/headPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/locations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/mainBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/no_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/no_wifi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/orders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/subtract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/women.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/js/vant.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/add-order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/address-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/no-wify.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/pay-success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/add-order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/address-edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/address.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/no-wify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/pay-success.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/vant.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/reggie/common/BaseContextTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/reggie/service/CateGoryServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/reggie/service/DishFlavorServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/reggie/service/DishServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/reggie/service/EmployServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/reggie/service/SetmealServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/test.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="JupyterTrust" id="ead821e2-6cd4-4649-a63f-0b9c9502d5dc" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Program Files\java\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="E:\Program Files\JetBrains\IntelliJ IDEA 2020.2.4\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="E:\Program Files\java\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EngrJLfTPggqwKitKWQiwdaSL6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JavaClassFindUsagesOptions.isSearchForTextOccurrences" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/src/main/java/com/reggie/controller" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.reggie" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Code WorkSpace\Reggie\src\main\resources\backend\page\demo" />
+      <recent name="G:\Code WorkSpace\Reggie\sort" />
+      <recent name="G:\Code WorkSpace\Reggie\sort\src" />
+      <recent name="G:\Code WorkSpace\Reggie\src\main\resources" />
+      <recent name="G:\Code WorkSpace\Reggie" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Code WorkSpace\Reggie" />
+      <recent name="G:\Code WorkSpace\Reggie\interview\src\main\java" />
+      <recent name="G:\Code WorkSpace\Reggie\interview" />
+      <recent name="G:\Code WorkSpace\Reggie\sort\src\thread" />
+      <recent name="G:\Code WorkSpace\Reggie\sort" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ReggieApplication">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="Reggie" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.deleteFile (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Reggie" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="deleteFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.deleteFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Reggie" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="deleteFile(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Reggie" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReggieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Reggie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.reggie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.reggie.ReggieApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.test" />
+      <item itemvalue="JUnit.test.test" />
+      <item itemvalue="JUnit.test.deleteFile" />
+      <item itemvalue="JUnit.test.deleteFile (1)" />
+      <item itemvalue="Spring Boot.ReggieApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ReggieApplication" />
+        <item itemvalue="JUnit.test.deleteFile (1)" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="JUnit.test.deleteFile" />
+        <item itemvalue="JUnit.test.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cf8bb97-6151-4746-b9f7-792de46d2535" name="Default Changelist" comment="" />
+      <created>1663236961233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663236961233</updated>
+      <workItem from="1663236962394" duration="1106000" />
+      <workItem from="1663238108728" duration="5602000" />
+      <workItem from="1663289241351" duration="136000" />
+      <workItem from="1663289404807" duration="27695000" />
+      <workItem from="1663551118616" duration="16887000" />
+      <workItem from="1663639000505" duration="22034000" />
+      <workItem from="1663740163352" duration="8359000" />
+      <workItem from="1663761255556" duration="2699000" />
+      <workItem from="1663764042914" duration="1102000" />
+      <workItem from="1663766023618" duration="22843000" />
+      <workItem from="1663897882067" duration="24411000" />
+      <workItem from="1663940205749" duration="6629000" />
+      <workItem from="1663982431109" duration="25215000" />
+      <workItem from="1664094456562" duration="52893000" />
+      <workItem from="1664210427334" duration="3360000" />
+      <workItem from="1664246299093" duration="59902000" />
+      <workItem from="1664364168109" duration="2051000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="已实现员工管理，菜品分类管理，具体菜品管理，套餐管理所有功能。订单明细与所有手机端编码未实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="已实现员工管理，菜品分类管理，具体菜品管理，套餐管理所有功能。订单明细与所有手机端编码未实现" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="110" key="#Inspections" timestamp="1664162662632">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="395" y="110" key="#Inspections/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664162662632" />
+    <state x="492" y="255" key="#Notifications" timestamp="1663902047032">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="492" y="255" key="#Notifications/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663902047032" />
+    <state x="249" y="6" key="#Project_Structure" timestamp="1664251352894">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="6" key="#Project_Structure/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664251352894" />
+    <state x="599" y="287" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1663644590378">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="599" y="287" key="#com.intellij.debugger.actions.ViewTextAction/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663644590378" />
+    <state x="223" y="87" width="1176" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1664336714781">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="87" width="1176" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664336714781" />
+    <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1664351938448">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664351938448" />
+    <state x="498" y="221" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1663749659687">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="498" y="221" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663749659687" />
+    <state x="491" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1663754588630">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="491" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663754588630" />
+    <state x="548" y="312" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1663754579348">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="548" y="312" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663754579348" />
+    <state x="445" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1663991162201">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="445" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663991162201" />
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1664189199368">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664189199368" />
+    <state x="668" y="361" key="#debugger.expression.dialog" timestamp="1663740880129">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="668" y="361" key="#debugger.expression.dialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663740880129" />
+    <state x="855" y="143" key="#xdebugger.evaluate" timestamp="1663646075424">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="855" y="143" key="#xdebugger.evaluate/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663646075424" />
+    <state width="1042" height="466" key="DebuggerActiveHint" timestamp="1664256329066">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1042" height="466" key="DebuggerActiveHint/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664256329066" />
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1664363788529">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664363788529" />
+    <state x="549" y="186" key="FileChooserDialogImpl" timestamp="1664363853601">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="186" key="FileChooserDialogImpl/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664363853601" />
+    <state x="17" y="182" width="1464" height="276" key="GridCell.Tab.-1.bottom" timestamp="1663645295043">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="17" y="182" width="1464" height="276" key="GridCell.Tab.-1.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663645295043" />
+    <state x="17" y="182" width="1464" height="276" key="GridCell.Tab.-1.center" timestamp="1663645295043">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="17" y="182" width="1464" height="276" key="GridCell.Tab.-1.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663645295043" />
+    <state x="17" y="182" width="1464" height="276" key="GridCell.Tab.-1.left" timestamp="1663645295043">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="17" y="182" width="1464" height="276" key="GridCell.Tab.-1.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663645295043" />
+    <state x="17" y="182" width="1493" height="372" key="GridCell.Tab.-1.right" timestamp="1663740046362">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="17" y="182" width="1493" height="372" key="GridCell.Tab.-1.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663740046362" />
+    <state width="1493" height="376" key="GridCell.Tab.0.bottom" timestamp="1664364133264">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="376" key="GridCell.Tab.0.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133264" />
+    <state width="1493" height="376" key="GridCell.Tab.0.center" timestamp="1664364133263">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="376" key="GridCell.Tab.0.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133263" />
+    <state width="1493" height="376" key="GridCell.Tab.0.left" timestamp="1664364133263">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="376" key="GridCell.Tab.0.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133263" />
+    <state width="1493" height="376" key="GridCell.Tab.0.right" timestamp="1664364133263">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="376" key="GridCell.Tab.0.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133263" />
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.bottom" timestamp="1664364133258">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.center" timestamp="1664364133258">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.left" timestamp="1664364133258">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.right" timestamp="1664364133258">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.bottom" timestamp="1664364133258">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.center" timestamp="1664364133258">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.left" timestamp="1664364133258">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.right" timestamp="1664364133258">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
+    <state width="1493" height="372" key="GridCell.Tab.3.bottom" timestamp="1663741184779">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.3.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663741184779" />
+    <state width="1493" height="372" key="GridCell.Tab.3.center" timestamp="1663741184779">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.3.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663741184779" />
+    <state width="1493" height="372" key="GridCell.Tab.3.left" timestamp="1663741184779">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.3.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663741184779" />
+    <state width="1493" height="372" key="GridCell.Tab.3.right" timestamp="1663741184779">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.3.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663741184779" />
+    <state x="349" y="175" key="IDE.errors.dialog" timestamp="1664272803519">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="349" y="175" key="IDE.errors.dialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664272803519" />
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1664192229165">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664192229165" />
+    <state x="408" y="135" key="NewModule_or_Project.wizard" timestamp="1663819420837">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="408" y="135" key="NewModule_or_Project.wizard/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663819420837" />
+    <state x="349" y="250" key="Registry" timestamp="1663763637945">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="349" y="250" key="Registry/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663763637945" />
+    <state x="326" y="13" key="SettingsEditor" timestamp="1664364000533">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="326" y="13" key="SettingsEditor/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364000533" />
+    <state x="490" y="173" width="540" height="524" key="StructurePopup" timestamp="1663991953583">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="490" y="173" width="540" height="524" key="StructurePopup/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663991953583" />
+    <state width="498" height="540" key="SwitcherDM" timestamp="1664353619520">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="498" height="540" key="SwitcherDM/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664353619520" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1664363907650">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664363907650" />
+    <state width="775" height="439" key="XDebugger.FullValuePopup" timestamp="1664112112595">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="775" height="439" key="XDebugger.FullValuePopup/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664112112595" />
+    <state x="294" y="81" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1663753855850">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="294" y="81" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663753855850" />
+    <state x="540" y="259" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1664291959779">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="540" y="259" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664291959779" />
+    <state x="295" y="75" width="914" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1663749693577">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="295" y="75" width="914" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663749693577" />
+    <state x="17" y="182" width="1478" height="342" key="dock-window-1" timestamp="1663645873955">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="17" y="182" width="1478" height="342" key="dock-window-1/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663645873955" />
+    <state x="499" y="188" key="extract.method.dialog" timestamp="1664256419851">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="188" key="extract.method.dialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664256419851" />
+    <state x="570" y="338" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1664362818559">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="570" y="338" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664362818559" />
+    <state x="206" y="86" key="new project wizard" timestamp="1663738734203">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="206" y="86" key="new project wizard/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663738734203" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1664256209600">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664256209600" />
+    <state x="539" y="176" width="672" height="678" key="search.everywhere.popup" timestamp="1664280535888">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="539" y="176" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664280535888" />
+    <state x="470" y="121" key="spring file set editor" timestamp="1663238380432">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="470" y="121" key="spring file set editor/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663238380432" />
+    <state x="599" y="223" key="svn.repositoryBrowser" timestamp="1664362726207">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="599" y="223" key="svn.repositoryBrowser/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664362726207" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <condition expression="Thread.currentThread().getName().equals(&quot;t1&quot;)||Thread.currentThread().getName().equals(&quot;t2&quot;)" language="JAVA" mode="CODE_FRAGMENT" />
+          <url>jar://E:/Program Files/java/jdk1.8.0_311/src.zip!/java/util/HashMap.java</url>
+          <line>631</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/reggie/web/interceptor/LoginInterceptor.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
