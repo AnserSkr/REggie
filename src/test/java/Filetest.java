@@ -13,7 +13,7 @@ import java.util.Random;
  * @version: 1.0
  */
 
-public class test {
+public class Filetest {
     public static void main(String[] args) {
         // File file = new File("file");
         // file.mkdir();

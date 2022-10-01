@@ -19,8 +19,53 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cf8bb97-6151-4746-b9f7-792de46d2535" name="Default Changelist" comment="已实现员工管理，菜品分类管理，具体菜品管理，套餐管理所有功能。订单明细与所有手机端编码未实现，请留意下一个版本">
+    <list default="true" id="7cf8bb97-6151-4746-b9f7-792de46d2535" name="Default Changelist" comment="更新上一个阶段笔记。">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/AddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/mapper/AddressBookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/AddressBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/AddressBookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/utils/SMSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/utils/SMSUtilsTemplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/utils/ValidateCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/web/AddressBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/reggie/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/瑞吉外卖 fcee46ea152c4c49b3455bd197b7c5db/Untitled 64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/瑞吉外卖 fcee46ea152c4c49b3455bd197b7c5db/Untitled 65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/瑞吉外卖 fcee46ea152c4c49b3455bd197b7c5db/Untitled 66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/瑞吉外卖 fcee46ea152c4c49b3455bd197b7c5db/Untitled 67.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/entity/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/entity/DishFlavor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/DishFlavor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/entity/Setmeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/Setmeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/entity/SetmealDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/SetmealDish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/filter/LoginCheckFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/food/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/api/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/address.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Filetest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/category/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/combo/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/combo/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/food/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/food/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/entity/Dish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/entity/Dish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/entity/DishFlavor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/entity/DishFlavor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/entity/Setmeal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/entity/Setmeal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/entity/SetmealDish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/entity/SetmealDish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/filter/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/filter/LoginCheckFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/api/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/page/address.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/page/address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/page/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/瑞吉外卖 .md" beforeDir="false" afterPath="$PROJECT_DIR$/瑞吉外卖 .md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +108,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2EngrJLfTPggqwKitKWQiwdaSL6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -81,7 +128,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/reggie/utils" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -93,57 +140,104 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.reggie" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Code WorkSpace\Reggie\src\main\resources\backend\page\demo" />
-      <recent name="G:\Code WorkSpace\Reggie\sort" />
-      <recent name="G:\Code WorkSpace\Reggie\sort\src" />
-      <recent name="G:\Code WorkSpace\Reggie\src\main\resources" />
-      <recent name="G:\Code WorkSpace\Reggie" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Code WorkSpace\Reggie" />
+      <recent name="G:\Code WorkSpace\Reggie\瑞吉外卖 fcee46ea152c4c49b3455bd197b7c5db" />
       <recent name="G:\Code WorkSpace\Reggie\interview\src\main\java" />
       <recent name="G:\Code WorkSpace\Reggie\interview" />
       <recent name="G:\Code WorkSpace\Reggie\sort\src\thread" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.reggie" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.reggie.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Code WorkSpace\Reggie\src\main\java\com\reggie\utils" />
+      <recent name="G:\Code WorkSpace\Reggie" />
+      <recent name="G:\Code WorkSpace\Reggie\src\main\resources\backend\page\demo" />
       <recent name="G:\Code WorkSpace\Reggie\sort" />
+      <recent name="G:\Code WorkSpace\Reggie\sort\src" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ReggieApplication">
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="Reggie" />
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.deleteFile (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Filetest.deleteFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Reggie" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="Filetest" />
       <option name="METHOD_NAME" value="deleteFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.deleteFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Filetest.deleteFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Reggie" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="Filetest" />
       <option name="METHOD_NAME" value="deleteFile(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test.sendMsg (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Reggie" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.reggie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.reggie" />
+      <option name="MAIN_CLASS_NAME" value="com.reggie.test" />
+      <option name="METHOD_NAME" value="sendMsg" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.sendMsg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Reggie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.reggie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.reggie" />
+      <option name="MAIN_CLASS_NAME" value="com.reggie.test" />
+      <option name="METHOD_NAME" value="sendMsg(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.testRandom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Reggie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.reggie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.reggie" />
+      <option name="MAIN_CLASS_NAME" value="com.reggie.test" />
+      <option name="METHOD_NAME" value="testRandom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,19 +259,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.test" />
-      <item itemvalue="JUnit.test.test" />
-      <item itemvalue="JUnit.test.deleteFile" />
-      <item itemvalue="JUnit.test.deleteFile (1)" />
       <item itemvalue="Spring Boot.ReggieApplication" />
+      <item itemvalue="JUnit.Filetest.deleteFile" />
+      <item itemvalue="JUnit.test.sendMsg" />
+      <item itemvalue="JUnit.test.sendMsg (1)" />
+      <item itemvalue="JUnit.test.testRandom" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ReggieApplication" />
-        <item itemvalue="JUnit.test.deleteFile (1)" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="JUnit.test.deleteFile" />
-        <item itemvalue="JUnit.test.test" />
+        <item itemvalue="JUnit.test.sendMsg (1)" />
+        <item itemvalue="JUnit.test.testRandom" />
+        <item itemvalue="JUnit.test.sendMsg" />
+        <item itemvalue="JUnit.Filetest.deleteFile" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +299,7 @@
       <workItem from="1664094456562" duration="52893000" />
       <workItem from="1664210427334" duration="3360000" />
       <workItem from="1664246299093" duration="59902000" />
-      <workItem from="1664364168109" duration="2987000" />
+      <workItem from="1664364168109" duration="32757000" />
     </task>
     <task id="LOCAL-00001" summary="已实现员工管理，菜品分类管理，具体菜品管理，套餐管理所有功能。订单明细与所有手机端编码未实现，请留意下一个版本">
       <created>1664453528097</created>
@@ -214,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664453528098</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新上一个阶段笔记。">
+      <created>1664454420442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664454420442</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +351,8 @@
     </ignored-roots>
     <MESSAGE value="已实现员工管理，菜品分类管理，具体菜品管理，套餐管理所有功能。订单明细与所有手机端编码未实现" />
     <MESSAGE value="已实现员工管理，菜品分类管理，具体菜品管理，套餐管理所有功能。订单明细与所有手机端编码未实现，请留意下一个版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="已实现员工管理，菜品分类管理，具体菜品管理，套餐管理所有功能。订单明细与所有手机端编码未实现，请留意下一个版本" />
+    <MESSAGE value="更新上一个阶段笔记。" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新上一个阶段笔记。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="110" key="#Inspections" timestamp="1664162662632">
@@ -269,14 +371,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="599" y="287" key="#com.intellij.debugger.actions.ViewTextAction/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663644590378" />
-    <state x="223" y="87" width="1176" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1664336714781">
+    <state x="223" y="87" width="1176" height="765" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1664458693410">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="223" y="87" width="1176" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664336714781" />
-    <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1664351938448">
+    <state x="223" y="87" width="1176" height="765" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664458693410" />
+    <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1664618698698">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664351938448" />
+    <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664618698698" />
     <state x="498" y="221" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1663749659687">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -305,10 +407,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="855" y="143" key="#xdebugger.evaluate/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663646075424" />
-    <state width="1042" height="466" key="DebuggerActiveHint" timestamp="1664256329066">
+    <state width="1042" height="466" key="DebuggerActiveHint" timestamp="1664597124288">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1042" height="466" key="DebuggerActiveHint/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664256329066" />
+    <state width="1042" height="466" key="DebuggerActiveHint/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664597124288" />
     <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1664363788529">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -333,54 +435,54 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="17" y="182" width="1493" height="372" key="GridCell.Tab.-1.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663740046362" />
-    <state width="1493" height="376" key="GridCell.Tab.0.bottom" timestamp="1664364133264">
+    <state width="1493" height="262" key="GridCell.Tab.0.bottom" timestamp="1664623174379">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="376" key="GridCell.Tab.0.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133264" />
-    <state width="1493" height="376" key="GridCell.Tab.0.center" timestamp="1664364133263">
+    <state width="1493" height="262" key="GridCell.Tab.0.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664623174379" />
+    <state width="1493" height="262" key="GridCell.Tab.0.center" timestamp="1664623174379">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="376" key="GridCell.Tab.0.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133263" />
-    <state width="1493" height="376" key="GridCell.Tab.0.left" timestamp="1664364133263">
+    <state width="1493" height="262" key="GridCell.Tab.0.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664623174379" />
+    <state width="1493" height="262" key="GridCell.Tab.0.left" timestamp="1664623174379">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="376" key="GridCell.Tab.0.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133263" />
-    <state width="1493" height="376" key="GridCell.Tab.0.right" timestamp="1664364133263">
+    <state width="1493" height="262" key="GridCell.Tab.0.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664623174379" />
+    <state width="1493" height="262" key="GridCell.Tab.0.right" timestamp="1664623174379">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="376" key="GridCell.Tab.0.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133263" />
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.bottom" timestamp="1664364133258">
+    <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664623174379" />
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.1.bottom" timestamp="1664623174380">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.center" timestamp="1664364133258">
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.1.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664623174380" />
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.1.center" timestamp="1664623174380">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.left" timestamp="1664364133258">
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.1.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664623174380" />
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.1.left" timestamp="1664623174380">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.right" timestamp="1664364133258">
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.1.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664623174380" />
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.1.right" timestamp="1664623174380">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.1.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.bottom" timestamp="1664364133258">
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.1.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664623174380" />
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.2.bottom" timestamp="1664623174380">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.center" timestamp="1664364133258">
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.2.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664623174380" />
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.2.center" timestamp="1664623174380">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.left" timestamp="1664364133258">
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.2.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664623174380" />
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.2.left" timestamp="1664623174380">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.right" timestamp="1664364133258">
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.2.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664623174380" />
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.2.right" timestamp="1664623174380">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="188" key="GridCell.Tab.2.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664364133258" />
+    <state x="17" y="182" width="1493" height="262" key="GridCell.Tab.2.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664623174380" />
     <state width="1493" height="372" key="GridCell.Tab.3.bottom" timestamp="1663741184779">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -397,10 +499,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="372" key="GridCell.Tab.3.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663741184779" />
-    <state x="349" y="175" key="IDE.errors.dialog" timestamp="1664272803519">
+    <state x="349" y="175" key="IDE.errors.dialog" timestamp="1664454343463">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="349" y="175" key="IDE.errors.dialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664272803519" />
+    <state x="349" y="175" key="IDE.errors.dialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664454343463" />
     <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1664192229165">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -413,6 +515,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="349" y="250" key="Registry/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663763637945" />
+    <state x="583" y="366" key="ReplaceDuplicatesPrompt" timestamp="1664594414937">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="583" y="366" key="ReplaceDuplicatesPrompt/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664594414937" />
     <state x="326" y="13" key="SettingsEditor" timestamp="1664364000533">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -425,14 +531,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="498" height="540" key="SwitcherDM/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664353619520" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1664453595999">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1664454506936">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664453595999" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664454506936" />
     <state width="775" height="439" key="XDebugger.FullValuePopup" timestamp="1664112112595">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="775" height="439" key="XDebugger.FullValuePopup/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664112112595" />
+    <state x="565" y="209" key="chooseDestDirectoryDialog" timestamp="1664455415916">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="565" y="209" key="chooseDestDirectoryDialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664455415916" />
+    <state x="631" y="276" key="cloudConfig.SelfSettingsDialog" timestamp="1664590314561">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="631" y="276" key="cloudConfig.SelfSettingsDialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664590314561" />
     <state x="294" y="81" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1663753855850">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -449,10 +563,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="17" y="182" width="1478" height="342" key="dock-window-1/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663645873955" />
-    <state x="499" y="188" key="extract.method.dialog" timestamp="1664256419851">
+    <state x="499" y="188" key="extract.method.dialog" timestamp="1664594413375">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="499" y="188" key="extract.method.dialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664256419851" />
+    <state x="499" y="188" key="extract.method.dialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664594413375" />
     <state x="570" y="338" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1664362818559">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -465,10 +579,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="425" y="197" key="run.anything.popup/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664256209600" />
-    <state x="539" y="176" width="672" height="678" key="search.everywhere.popup" timestamp="1664280535888">
+    <state x="539" y="176" width="672" height="678" key="search.everywhere.popup" timestamp="1664594140453">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="539" y="176" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664280535888" />
+    <state x="539" y="176" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664594140453" />
     <state x="470" y="121" key="spring file set editor" timestamp="1663238380432">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

@@ -38,3 +38,6 @@ third-party/nacos/data/
 third-party/nacos/work/
 
 file/
+
+###包含敏感信息###
+/src/main/java/com/reggie/utils/SMSUtils.java

@@ -39,7 +39,9 @@ public class LoginCheckFilter implements Filter {
                 "/employee/logout",
                 "/backend/**",
                 "/front/**",
-                "/common/**"
+                "/common/**",
+                "/user/login",
+                "/user/sendMsg"
         };
         // 2.使用AntPathMatcher路径匹配器，对字符串**或*的通配符与requestUrl进行比对处理，该操作封装到check()中
         boolean check = check(urls, requestURI);
@@ -49,14 +51,23 @@ public class LoginCheckFilter implements Filter {
             chain.doFilter(httpServletRequest,httpServletResponse);
             return;
         }
+        // 4-1.如果连接需要被过滤，判断后端是否登录
         Long empId = (Long) httpServletRequest.getSession().getAttribute("employee");
-        // 4.如果连接需要被过滤，判断是否登录
         if(empId != null){
             log.info("用户已登录{}",empId);
             BaseContext.setCurrentId(empId);
             chain.doFilter(httpServletRequest,httpServletResponse);
             return;
         }
+        // 4-1.如果连接需要被过滤，判断前端用户是否登录
+        Long userId = (Long) httpServletRequest.getSession().getAttribute("user");
+        if(userId != null){
+            log.info("用户已登录{}",userId);
+            BaseContext.setCurrentId(userId);
+            chain.doFilter(httpServletRequest,httpServletResponse);
+            return;
+        }
+
         // 5.如果未登录，则响应数据到前端，由响应拦截器跳转到指定页面
         log.info("用户未登录，即将跳转页面");
         httpServletResponse.getWriter().write(JSON.toJSONString(Result.error("NOTLOGIN")));

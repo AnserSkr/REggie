@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
  */
 @Data
 public class DishFlavor implements Serializable {
-    private static final Long serialVersionUid = 1L;
+    private static final Long serialVersionUID = 1L;
 
     private Long id;
 

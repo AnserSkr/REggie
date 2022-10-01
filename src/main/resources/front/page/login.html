@@ -27,7 +27,7 @@
                 <el-input placeholder=" 请输入验证码" v-model="form.code"  maxlength='20'/></el-input>
                 <span @click='getCode'>获取验证码</span>
             </div>
-            <div class="divMsg" v-if="msgFlag">手机号输入不正确，请重新输入</div>
+            <div class="divMsg" v-if="msgFlag">手机号格式不正确，请重新输入</div>
             <el-button type="primary" :class="{btnSubmit:1===1,btnNoPhone:!form.phone,btnPhone:form.phone}" @click="btnLogin">登录</el-button>
         </div>
         <!-- 开发环境版本，包含了有帮助的命令行警告 -->
@@ -61,9 +61,10 @@
                 getCode(){
                     this.form.code = ''
                     const regex = /^(13[0-9]{9})|(15[0-9]{9})|(17[0-9]{9})|(18[0-9]{9})|(19[0-9]{9})$/;
-                    if (regex.test(this.form.phone)) {
+                    if (regex.test(this.form.phone)&&this.form.phone.length==11) {
                         this.msgFlag = false
-                        this.form.code = (Math.random()*1000000).toFixed(0)
+                        // this.msgCode = (Math.random()*1000000).toFixed(0)
+                        sendMsgApi(this.form.phone);
                     }else{
                         this.msgFlag = true
                     }
@@ -71,7 +72,7 @@
                 async btnLogin(){
                     if(this.form.phone && this.form.code){
                         this.loading = true
-                        const res = await loginApi({phone:this.form.phone})
+                        const res = await loginApi({phone:this.form.phone,code:this.form.code})
                         this.loading = false
                         if(res.code === 1){
                             sessionStorage.setItem("userPhone",this.form.phone)
@@ -84,7 +85,8 @@
                     }else{
                         this.$notify({ type:'warning', message:'请输入手机号码'});
                     }
-                }
+                },
+
             }
         })
     </script>

@@ -13,4 +13,11 @@ function loginoutApi() {
   })
 }
 
+function sendMsgApi(phone) {
+    return $axios({
+        'url': '/user/sendMsg?phone='+phone,
+        'method': 'get',
+    })
+}
+
   
