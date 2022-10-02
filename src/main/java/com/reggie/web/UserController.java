@@ -77,7 +77,7 @@ public class UserController {
     private Result<String> sendMsg(HttpServletRequest request) throws Exception {
         Random random = new Random();
         Integer[] i = new Integer[]{4,6};
-        String code = ValidateCodeUtils.generateValidateCode(i[random.nextInt(1)]).toString();
+        String code = ValidateCodeUtils.generateValidateCode(i[random.nextInt(2)]).toString();
         // SMSUtils.sendMessage(code);
         log.info("验证码为：{}",code);
         request.getSession().setAttribute("code", code);

@@ -5,6 +5,7 @@ import com.reggie.entity.ShoppingCart;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author 98248
@@ -21,4 +22,25 @@ public interface ShoppingCartService extends IService<ShoppingCart> {
      * @return
      */
     List<ShoppingCart> getAllByUserId(Long userId);
+
+    /**
+     * 添加shoppingCart
+     * @param shoppingCart
+     * @return
+     */
+    ShoppingCart addShoppingCart(ShoppingCart shoppingCart);
+
+    /**
+     * 根据传入的dishId或setmealId进项菜品数量的-1
+     * @param idMap
+     * @return
+     */
+    ShoppingCart subShoppingCartById(Map<String,Long> idMap);
+
+    /**
+     * 根据UserId删除所有的shoppingCart
+     * @return
+     */
+    boolean delAllShoppingCartByUserId();
+
 }

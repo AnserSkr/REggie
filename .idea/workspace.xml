@@ -19,42 +19,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cf8bb97-6151-4746-b9f7-792de46d2535" name="Default Changelist" comment="完成用户地址薄的展示，修改，新增代码编辑，同步更新笔记">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/SetmealDishDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/mapper/ShoppingCartMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/ShoppingCartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/web/ShoppingCaetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/cartData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/瑞吉外卖 fcee46ea152c4c49b3455bd197b7c5db/Untitled 68.png" afterDir="false" />
+    <list default="true" id="7cf8bb97-6151-4746-b9f7-792de46d2535" name="Default Changelist" comment="完成菜品展示,套餐展示,套餐详细信息展示,同步更新笔记">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/dto/DishDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/dto/DishDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/service/DishFlavorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/DishFlavorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/DishService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/service/SetmealDishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/SetmealDishService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/SetmealService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/DishFlavorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/DishFlavorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/DishServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/SetmealDishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/SetmealDishServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/SetmealServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/web/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/web/DishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/web/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/web/SetmealController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/api/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/api/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/dto/DishDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/dto/DishDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/service/DishFlavorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/DishFlavorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/service/DishService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/DishService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/service/SetmealDishService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/SetmealDishService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/service/SetmealService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/SetmealService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/DishFlavorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/DishFlavorServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/DishServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/DishServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/SetmealDishServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/SetmealDishServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/SetmealServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/SetmealServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/web/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/web/DishController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/web/SetmealController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/web/SetmealController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/front/api/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/api/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/common/MyMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/common/MyMetaObjectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/entity/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/service/ShoppingCartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/ShoppingCartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/ShoppingCartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/web/ShoppingCaetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/web/ShoppingCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/common/MyMetaObjectHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/common/MyMetaObjectHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/entity/ShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/entity/ShoppingCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/service/ShoppingCartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/ShoppingCartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/ShoppingCartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/ShoppingCartServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/web/ShoppingCaetController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/web/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/瑞吉外卖 .md" beforeDir="false" afterPath="$PROJECT_DIR$/瑞吉外卖 .md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +97,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/reggie/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -131,6 +109,19 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.reggie" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Code WorkSpace\Reggie" />
+      <recent name="G:\Code WorkSpace\Reggie\src\main\java\com\reggie\utils" />
+      <recent name="G:\Code WorkSpace\Reggie\src\main\resources\backend\page\demo" />
+      <recent name="G:\Code WorkSpace\Reggie\sort" />
+      <recent name="G:\Code WorkSpace\Reggie\sort\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.reggie.utils" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Code WorkSpace\Reggie\瑞吉外卖 fcee46ea152c4c49b3455bd197b7c5db" />
       <recent name="G:\Code WorkSpace\Reggie" />
@@ -138,34 +129,8 @@
       <recent name="G:\Code WorkSpace\Reggie\interview\src\main\java" />
       <recent name="G:\Code WorkSpace\Reggie\interview" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.reggie" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.reggie.utils" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Code WorkSpace\Reggie\src\main\java\com\reggie\utils" />
-      <recent name="G:\Code WorkSpace\Reggie" />
-      <recent name="G:\Code WorkSpace\Reggie\src\main\resources\backend\page\demo" />
-      <recent name="G:\Code WorkSpace\Reggie\sort" />
-      <recent name="G:\Code WorkSpace\Reggie\sort\src" />
-    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ReggieApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Filetest.deleteFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Reggie" />
       <option name="PACKAGE_NAME" value="" />
@@ -250,11 +215,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.ReggieApplication" />
       <item itemvalue="JUnit.Filetest.deleteFile" />
       <item itemvalue="JUnit.test.sendMsg" />
       <item itemvalue="JUnit.test.sendMsg (1)" />
       <item itemvalue="JUnit.test.testRandom" />
+      <item itemvalue="Spring Boot.ReggieApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -290,7 +255,8 @@
       <workItem from="1664094456562" duration="52893000" />
       <workItem from="1664210427334" duration="3360000" />
       <workItem from="1664246299093" duration="59902000" />
-      <workItem from="1664364168109" duration="48938000" />
+      <workItem from="1664364168109" duration="49085000" />
+      <workItem from="1664684440989" duration="19124000" />
     </task>
     <task id="LOCAL-00001" summary="已实现员工管理，菜品分类管理，具体菜品管理，套餐管理所有功能。订单明细与所有手机端编码未实现，请留意下一个版本">
       <created>1664453528097</created>
@@ -313,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664623419377</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="完成菜品展示,套餐展示,套餐详细信息展示,同步更新笔记">
+      <created>1664684126415</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664684126415</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +324,8 @@
     <MESSAGE value="已实现员工管理，菜品分类管理，具体菜品管理，套餐管理所有功能。订单明细与所有手机端编码未实现，请留意下一个版本" />
     <MESSAGE value="更新上一个阶段笔记。" />
     <MESSAGE value="完成用户地址薄的展示，修改，新增代码编辑，同步更新笔记" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成用户地址薄的展示，修改，新增代码编辑，同步更新笔记" />
+    <MESSAGE value="完成菜品展示,套餐展示,套餐详细信息展示,同步更新笔记" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成菜品展示,套餐展示,套餐详细信息展示,同步更新笔记" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="110" key="#Inspections" timestamp="1664162662632">
@@ -374,10 +348,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" width="1176" height="765" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664458693410" />
-    <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1664682977768">
+    <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1664728225398">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664682977768" />
+    <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664728225398" />
     <state x="498" y="221" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1663749659687">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -406,10 +380,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="855" y="143" key="#xdebugger.evaluate/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663646075424" />
-    <state width="1042" height="466" key="DebuggerActiveHint" timestamp="1664597124288">
+    <state width="1042" height="466" key="DebuggerActiveHint" timestamp="1664725836197">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1042" height="466" key="DebuggerActiveHint/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664597124288" />
+    <state width="1042" height="466" key="DebuggerActiveHint/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664725836197" />
     <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1664363788529">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -418,6 +392,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="186" key="FileChooserDialogImpl/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664363853601" />
+    <state x="579" y="333" key="Github.CreateGistDialog" timestamp="1664723988824">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="579" y="333" key="Github.CreateGistDialog/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664723988824" />
     <state x="17" y="182" width="1464" height="276" key="GridCell.Tab.-1.bottom" timestamp="1663645295043">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -434,54 +412,54 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="17" y="182" width="1493" height="372" key="GridCell.Tab.-1.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663740046362" />
-    <state width="1493" height="253" key="GridCell.Tab.0.bottom" timestamp="1664682548576">
+    <state width="1493" height="253" key="GridCell.Tab.0.bottom" timestamp="1664728528481">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664682548576" />
-    <state width="1493" height="253" key="GridCell.Tab.0.center" timestamp="1664682548576">
+    <state width="1493" height="253" key="GridCell.Tab.0.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664728528481" />
+    <state width="1493" height="253" key="GridCell.Tab.0.center" timestamp="1664728528481">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664682548576" />
-    <state width="1493" height="253" key="GridCell.Tab.0.left" timestamp="1664682548576">
+    <state width="1493" height="253" key="GridCell.Tab.0.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664728528481" />
+    <state width="1493" height="253" key="GridCell.Tab.0.left" timestamp="1664728528481">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664682548576" />
-    <state width="1493" height="253" key="GridCell.Tab.0.right" timestamp="1664682548576">
+    <state width="1493" height="253" key="GridCell.Tab.0.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664728528481" />
+    <state width="1493" height="253" key="GridCell.Tab.0.right" timestamp="1664728528481">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664682548576" />
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.bottom" timestamp="1664682548576">
+    <state width="1493" height="253" key="GridCell.Tab.0.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664728528481" />
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.bottom" timestamp="1664728528481">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664682548576" />
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.center" timestamp="1664682548576">
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664728528481" />
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.center" timestamp="1664728528481">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664682548576" />
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.left" timestamp="1664682548576">
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664728528481" />
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.left" timestamp="1664728528481">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664682548576" />
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.right" timestamp="1664682548576">
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664728528481" />
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.right" timestamp="1664728528481">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664682548576" />
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.bottom" timestamp="1664682548577">
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.1.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664728528481" />
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.bottom" timestamp="1664728528481">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664682548577" />
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.center" timestamp="1664682548576">
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.bottom/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664728528481" />
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.center" timestamp="1664728528481">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664682548576" />
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.left" timestamp="1664682548576">
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.center/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664728528481" />
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.left" timestamp="1664728528481">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664682548576" />
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.right" timestamp="1664682548576">
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.left/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664728528481" />
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.right" timestamp="1664728528481">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664682548576" />
+    <state x="17" y="182" width="1493" height="253" key="GridCell.Tab.2.right/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664728528481" />
     <state width="1493" height="372" key="GridCell.Tab.3.bottom" timestamp="1663741184779">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -530,10 +508,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="498" height="540" key="SwitcherDM/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664353619520" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1664623440743">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1664684152313">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664623440743" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664684152313" />
     <state width="775" height="439" key="XDebugger.FullValuePopup" timestamp="1664112112595">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -550,10 +528,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="294" y="81" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1663753855850" />
-    <state x="574" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1664623427092">
+    <state x="574" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1664684146753">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664623427092" />
+    <state x="574" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664684146753" />
     <state x="540" y="259" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1664291959779">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -582,10 +560,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="425" y="197" key="run.anything.popup/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664256209600" />
-    <state x="539" y="176" width="672" height="678" key="search.everywhere.popup" timestamp="1664594140453">
+    <state x="539" y="176" width="672" height="678" key="search.everywhere.popup" timestamp="1664719019761">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="539" y="176" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664594140453" />
+    <state x="539" y="176" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/-1080.-135.864.1536@0.0.1536.864" timestamp="1664719019761" />
     <state x="470" y="121" key="spring file set editor" timestamp="1663238380432">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

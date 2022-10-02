@@ -1,6 +1,7 @@
 package com.reggie.common;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
+import com.reggie.entity.ShoppingCart;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.reflection.MetaObject;
 import org.springframework.stereotype.Component;
