@@ -3,6 +3,7 @@ package com.reggie.service;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.reggie.dto.SetmealDto;
+import com.reggie.entity.Category;
 import com.reggie.entity.Setmeal;
 
 import java.util.List;
@@ -50,4 +51,11 @@ public interface SetmealService extends IService<Setmeal> {
      * @return
      */
     boolean updateStatusByIds(List<Long> setmealIds,Integer status);
+
+    /**
+     * 根据categoryId获取到分类下所有启用的套餐
+     * @param categoryId
+     * @return
+     */
+    List<Setmeal> getAllByCategoryId(Long categoryId);
 }

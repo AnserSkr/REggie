@@ -3,6 +3,7 @@ package com.reggie.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.reggie.dto.SetmealDto;
 import com.reggie.entity.SetmealDish;
+import com.reggie.entity.SetmealDishDto;
 
 import java.util.List;
 
@@ -28,4 +29,10 @@ public interface SetmealDishService extends IService<SetmealDish> {
      */
     boolean addSetmealDishBySetmealId(List<SetmealDish> setmealDishes,Long setmealId);
 
+    /**
+     * 根据setmealId获取全部的setmealDish信息
+     * @param setmealId
+     * @return
+     */
+    List<SetmealDishDto> getAllBySetmealId(Long setmealId);
 }

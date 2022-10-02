@@ -15,6 +15,13 @@ import java.util.List;
  * @version: 1.0
  */
 public interface DishService extends IService<Dish> {
+    /**
+     * 根据categoryId和name获取到所有的dish数据
+     * @param categoryId
+     * @param name
+     * @return
+     */
+    List<Dish> getAllDishByCatrgoryId(Long categoryId,String name);
 
     /**
      * 新增菜品，并将菜品口味一并存储
@@ -51,4 +58,18 @@ public interface DishService extends IService<Dish> {
      * @return
      */
     boolean updateDishStatus(List<Long> dishIds,Integer status);
+
+    /**
+     * 将dish转换为dishDto，并查询flavors信息
+     * @param dish
+     * @return
+     */
+    DishDto transToDishDto(Dish dish);
+
+    /**
+     * 根基DIshId获取到对应的菜品Image路径
+     * @param dishId
+     * @return
+     */
+    String getImage(Long dishId);
 }

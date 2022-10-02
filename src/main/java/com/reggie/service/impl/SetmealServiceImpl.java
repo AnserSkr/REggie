@@ -147,4 +147,19 @@ public class SetmealServiceImpl extends ServiceImpl<SetmealMapper, Setmeal> impl
         //执行setmeal的状态修改,并返回是否执行成功
         return this.updateBatchById(setmealList);
     }
+
+    /**
+     * 根据categoryId获取到分类下所有启用的套餐
+     * @param categoryId
+     * @return
+     */
+    @Override
+    public List<Setmeal> getAllByCategoryId(Long categoryId) {
+        LambdaQueryWrapper<Setmeal> setmealWrapper = new LambdaQueryWrapper<>();
+        setmealWrapper.eq(Setmeal::getCategoryId,categoryId);
+        //只获取启售的套餐
+        setmealWrapper.eq(Setmeal::getStatus,1);
+        List<Setmeal> setmealList = this.list(setmealWrapper);
+        return setmealList;
+    }
 }

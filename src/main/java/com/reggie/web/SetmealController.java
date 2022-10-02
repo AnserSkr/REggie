@@ -2,8 +2,14 @@ package com.reggie.web;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.reggie.common.Result;
+import com.reggie.dto.DishDto;
 import com.reggie.dto.SetmealDto;
+import com.reggie.entity.Dish;
 import com.reggie.entity.Setmeal;
+import com.reggie.entity.SetmealDish;
+import com.reggie.entity.SetmealDishDto;
+import com.reggie.service.DishService;
+import com.reggie.service.SetmealDishService;
 import com.reggie.service.SetmealDtoService;
 import com.reggie.service.SetmealService;
 import lombok.extern.slf4j.Slf4j;
@@ -11,6 +17,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author 98248
@@ -29,6 +37,11 @@ public class SetmealController {
     @Autowired
     SetmealDtoService setmealDtoService;
 
+    @Autowired
+    DishService dishService;
+
+    @Autowired
+    SetmealDishService setmealDishService;
     /**
      * 根据接收参数，分页查询setmeal并获取categoryName放入setmealDto返回
      * @param page
@@ -132,5 +145,42 @@ public class SetmealController {
             return Result.success("状态修改成功");
         }
         return Result.error("状态修改失败");
+    }
+
+    /**
+     * 根据categoryId获取到对应的套餐分类下的套餐信息
+     * @param categoryId
+     * @param status
+     * @return
+     */
+    @GetMapping("/list")
+    public Result<List<SetmealDto>> getAllsetmeal(String categoryId,Integer status) {
+        // 根基catgoryId查询到所有的setmeal信息
+        Long categoryID = Long.valueOf(categoryId);
+        List<Setmeal> setmealList = setmealService.getAllByCategoryId(categoryID);
+        // 根据查询到的setmeal信息获取setmeal套餐内的的所有菜品信息
+        List<SetmealDto> setmealDtos = setmealList.stream().map(setmeal -> {
+            SetmealDto setmealDto = setmealDtoService.getDtoBySetmeal(setmeal);
+            return setmealDto;
+        }).collect(Collectors.toList());
+        if (setmealList != null) {
+            return Result.success(setmealDtos);
+        }
+        return Result.error("查询失败");
+    }
+
+    /**
+     * 此处的id为setmealId,用于查询setmeal对应的所有setmealDIsh
+     * @param id
+     * @return
+     */
+    @GetMapping("/dish/{id}")
+    public Result<List<SetmealDishDto>> getDishBySetmealId(@PathVariable Long id){
+        //根据setmealId查询到所有的setmealDish
+        List<SetmealDishDto> setmealDishDtoList = setmealDishService.getAllBySetmealId(id);
+        if(setmealDishDtoList!=null){
+            return Result.success(setmealDishDtoList);
+        }
+        return Result.error("查询失败");
     }
 }

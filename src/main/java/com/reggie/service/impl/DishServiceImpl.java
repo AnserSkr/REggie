@@ -31,6 +31,24 @@ public class DishServiceImpl extends ServiceImpl<DishMapper, Dish> implements Di
     DishFlavorService dishFlavorService;
 
     /**
+     * 根据categoryId和name获取到所有的dish数据
+     * @param categoryId
+     * @return
+     */
+    @Override
+    public List<Dish> getAllDishByCatrgoryId(Long categoryId,String name) {
+        LambdaQueryWrapper<Dish> dishWrapper = new LambdaQueryWrapper<>();
+        dishWrapper.eq(categoryId!=null,Dish::getCategoryId,categoryId);
+        //只查询起售的菜品
+        dishWrapper.eq(Dish::getStatus,1);
+        dishWrapper.like(name!=null,Dish::getName,"%"+name+"%");
+        //查询数据按照更新时间和sort排序
+        dishWrapper.orderByAsc(Dish::getSort).orderByDesc(Dish::getUpdateTime);
+        List<Dish> dishList = this.list(dishWrapper);
+        return dishList;
+    }
+
+    /**
      * 新增菜品，并将菜品口味一并存储
      *
      * @param dishDto
@@ -131,5 +149,32 @@ public class DishServiceImpl extends ServiceImpl<DishMapper, Dish> implements Di
         //更新Dish的status信息
         // return this.updateBatchById(dishList);
         return this.updateBatchById(dishList);
+    }
+
+    /**
+     * 将dish转换为dishDto，并查询flavors信息
+     * @param dish
+     * @return
+     */
+    @Override
+    public DishDto transToDishDto(Dish dish){
+        List<DishFlavor> dishFlavors = dishFlavorService.getFlavorsByDIshId(dish.getId());
+        DishDto dishDto = new DishDto();
+        BeanUtils.copyProperties(dish,dishDto);
+        dishDto.setFlavors(dishFlavors);
+        return dishDto;
+    }
+
+    /**
+     * 根基DIshId获取到对应的菜品Image路径
+     *
+     * @param dishId
+     * @return
+     */
+    @Override
+    public String getImage(Long dishId) {
+        Dish dish = this.getById(dishId);
+        String image = dish.getImage();
+        return image;
     }
 }

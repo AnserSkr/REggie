@@ -52,4 +52,18 @@ public class DishFlavorServiceImpl extends ServiceImpl<DishFlavorMapper, DishFla
         boolean remove = this.remove(dishFlavorWrapper);
         return remove;
     }
+
+    /**
+     * 根据DIshId获取所有口味信息
+     *
+     * @param dishId
+     * @return
+     */
+    @Override
+    public List<DishFlavor> getFlavorsByDIshId(Long dishId) {
+        LambdaQueryWrapper<DishFlavor> dishFlavorWrapper = new LambdaQueryWrapper<>();
+        dishFlavorWrapper.eq(DishFlavor::getDishId,dishId);
+        List<DishFlavor> dishFlavors = this.list(dishFlavorWrapper);
+        return dishFlavors;
+    }
 }

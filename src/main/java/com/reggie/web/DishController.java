@@ -175,21 +175,37 @@ public class DishController {
      * @param categoryId
      * @return
      */
+    // @GetMapping("/list")
+    // public Result<List<Dish>> getDishByCategoryId(Long categoryId,String name){
+    //     // log.info("categoryID:{}",categoryId);
+    //     log.info("name:{}",name);
+    //     LambdaQueryWrapper<Dish> dishWrapper = new LambdaQueryWrapper<>();
+    //     dishWrapper.eq(categoryId!=null,Dish::getCategoryId,categoryId);
+    //     //只查询起售的菜品
+    //     dishWrapper.eq(Dish::getStatus,1);
+    //     dishWrapper.like(name!=null,Dish::getName,"%"+name+"%");
+    //     //查询数据按照更新时间和sort排序
+    //     dishWrapper.orderByAsc(Dish::getSort).orderByDesc(Dish::getUpdateTime);
+    //     List<Dish> dishList = dishService.list(dishWrapper);
+    //
+    //     if(dishList!=null){
+    //         return Result.success(dishList);
+    //     }
+    //     return Result.error("未知错误，查询失败");
+    // }
     @GetMapping("/list")
-    public Result<List<Dish>> getDishByCategoryId(Long categoryId,String name){
+    public Result<List<DishDto>> getDishByCategoryId(Long categoryId, String name){
         // log.info("categoryID:{}",categoryId);
         log.info("name:{}",name);
-        LambdaQueryWrapper<Dish> dishWrapper = new LambdaQueryWrapper<>();
-        dishWrapper.eq(categoryId!=null,Dish::getCategoryId,categoryId);
-        //只查询起售的菜品
-        dishWrapper.eq(Dish::getStatus,1);
-        dishWrapper.like(name!=null,Dish::getName,"%"+name+"%");
-        //查询数据按照更新时间和sort排序
-        dishWrapper.orderByAsc(Dish::getSort).orderByDesc(Dish::getUpdateTime);
-        List<Dish> dishList = dishService.list(dishWrapper);
+        List<Dish> dishList = dishService.getAllDishByCatrgoryId(categoryId, name);
+        // 将查询道德dishDto数组转换为DishDto数组
+        List<DishDto> dishDtos = dishList.stream().map(dish -> {
+            DishDto dishDto = dishService.transToDishDto(dish);
+            return dishDto;
+        }).collect(Collectors.toList());
 
-        if(dishList!=null){
-            return Result.success(dishList);
+        if(dishDtos!=null){
+            return Result.success(dishDtos);
         }
         return Result.error("未知错误，查询失败");
     }
