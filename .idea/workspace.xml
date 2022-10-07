@@ -9,31 +9,26 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cf8bb97-6151-4746-b9f7-792de46d2535" name="Default Changelist" comment="下单功能完成，前端页面添加备注">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/dto/OrderDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/web/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/web/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/order/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/order/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/order/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/order/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/service/impl/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/web/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/web/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/web/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/瑞吉外卖 .md" beforeDir="false" afterPath="$PROJECT_DIR$/瑞吉外卖 .md" afterDir="false" />
-    </list>
+    <list default="true" id="7cf8bb97-6151-4746-b9f7-792de46d2535" name="Default Changelist" comment="下单功能完成，前端页面添加备注" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +55,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
@@ -108,18 +104,8 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\Code WorkSpace\Reggie\瑞吉外卖 fcee46ea152c4c49b3455bd197b7c5db" />
-      <recent name="G:\Code WorkSpace\Reggie" />
-      <recent name="G:\Code WorkSpace\Reggie\src\main\resources\front" />
-      <recent name="G:\Code WorkSpace\Reggie\interview\src\main\java" />
-      <recent name="G:\Code WorkSpace\Reggie\interview" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.reggie" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.reggie.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Code WorkSpace\Reggie" />
@@ -127,6 +113,16 @@
       <recent name="G:\Code WorkSpace\Reggie\src\main\resources\backend\page\demo" />
       <recent name="G:\Code WorkSpace\Reggie\sort" />
       <recent name="G:\Code WorkSpace\Reggie\sort\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.reggie.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Code WorkSpace\Reggie\瑞吉外卖 fcee46ea152c4c49b3455bd197b7c5db" />
+      <recent name="G:\Code WorkSpace\Reggie" />
+      <recent name="G:\Code WorkSpace\Reggie\src\main\resources\front" />
+      <recent name="G:\Code WorkSpace\Reggie\interview\src\main\java" />
+      <recent name="G:\Code WorkSpace\Reggie\interview" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ReggieApplication">
@@ -315,19 +311,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
