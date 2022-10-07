@@ -1,5 +1,6 @@
 package com.reggie.web;
 
+import com.reggie.common.BaseContext;
 import com.reggie.common.Result;
 import com.reggie.entity.User;
 import com.reggie.service.UserService;
@@ -69,6 +70,21 @@ public class UserController {
         return Result.error("验证码发送失败");
     }
 
+    /**
+     * 用户退出登录
+     * @param request
+     * @return
+     */
+    @PostMapping("/loginout")
+    public Result<String> loginout(HttpServletRequest request){
+        Long userId = BaseContext.getCurrentId();
+        User user = userService.getById(userId);
+        if(user!=null){
+            request.getSession().removeAttribute("userId");
+            return Result.success("退出成功");
+        }
+        return Result.error("后台与用户同时登陆，用户退出失败");
+    }
     /**
      * 随机发送4/6位验证你码，并存入session中
      * @param request
