@@ -119,12 +119,11 @@ public class ShoppingCartServiceImpl extends ServiceImpl<ShoppingCartMapper, Sho
 
     /**
      * 根据UserId删除所有的shoppingCart
+     * @param userId
      * @return
      */
     @Override
-    public boolean delAllShoppingCartByUserId() {
-        // 首先获取登录用户的Id
-        Long userId = BaseContext.getCurrentId();
+    public boolean delAllShoppingCartByUserId(Long userId) {
         LambdaQueryWrapper<ShoppingCart> shoppingCartWrapper = new LambdaQueryWrapper<>();
         shoppingCartWrapper.eq(ShoppingCart::getUserId,userId);
         boolean remove = this.remove(shoppingCartWrapper);

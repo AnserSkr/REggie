@@ -20,71 +20,71 @@ public class AddressBook implements Serializable {
     /**
      * 数据ID
      */
-    Long id;
+    private Long id;
     /**
      * 用户ID
      */
-    Long userId;
+    private Long userId;
     /**
      * 收货人
      */
-    String consignee;
+    private String consignee;
     /**
      * 性别 0女，1男
      */
-    Integer sex;
+    private Integer sex;
     /**
      * 手机号
      */
-    String phone;
+    private String phone;
     /**
      * 省级区划编号
      */
-    String provinceCode;
+    private String provinceCode;
     /**
      * 省级名称
      */
-    String provinceName;
+    private String provinceName;
     /**
      * 市级区划编号
      */
-    String cityCode;
+    private String cityCode;
     /**
      * 市级名称
      */
-    String cityName;
+    private String cityName;
     /**
      * 区级区划编号
      */
-    String districtCode;
+    private String districtCode;
     /**
      * 区级名称
      */
-    String districtName;
+    private String districtName;
     /**
      * 详细地址
      */
-    String detail;
+    private String detail;
     /**
      * 标签
      */
-    String label;
+    private String label;
     /**
      * 是否为默认地址 0否，1是
      */
-    Integer isDefault;
+    private Integer isDefault;
 
     @TableField(fill = FieldFill.INSERT)
-    LocalDateTime createTime;
+    private LocalDateTime createTime;
     @TableField(fill = FieldFill.INSERT_UPDATE)
-    LocalDateTime updateTime;
+    private LocalDateTime updateTime;
     @TableField(fill = FieldFill.INSERT)
-    Long createUser;
+    private Long createUser;
     @TableField(fill = FieldFill.INSERT_UPDATE)
-    Long updateUser;
+    private Long updateUser;
 
     /**
      * 是否删除
      */
-    Integer isDeleted;
+    private Integer isDeleted;
 }

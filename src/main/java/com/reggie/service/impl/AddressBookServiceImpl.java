@@ -7,6 +7,7 @@ import com.reggie.common.BaseContext;
 import com.reggie.entity.AddressBook;
 import com.reggie.mapper.AddressBookMapper;
 import com.reggie.service.AddressBookService;
+import okhttp3.Address;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -52,5 +53,19 @@ public class AddressBookServiceImpl extends ServiceImpl<AddressBookMapper, Addre
         addressBook.setIsDefault(1);
         boolean b = this.updateById(addressBook);
         return b;
+    }
+
+    /**
+     * 根据userID，获取用户的默认地址信息
+     * @param userId
+     * @return
+     */
+    @Override
+    public AddressBook getDefaultAddressByUserId(Long userId) {
+        LambdaQueryWrapper<AddressBook> addressBookWrapper = new LambdaQueryWrapper<>();
+        addressBookWrapper.eq(AddressBook::getUserId,userId);
+        addressBookWrapper.eq(AddressBook::getIsDefault,1);
+        AddressBook addressBook = this.getOne(addressBookWrapper);
+        return addressBook;
     }
 }

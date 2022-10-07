@@ -7,6 +7,8 @@ import com.reggie.entity.User;
 import com.reggie.service.AddressBookService;
 import com.reggie.service.UserService;
 import lombok.extern.slf4j.Slf4j;
+import okhttp3.Address;
+import org.apache.ibatis.annotations.Delete;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -69,5 +71,63 @@ public class AddressBookController {
             return Result.success("默认地址设置成功");
         }
         return Result.error("默认地址设置失败");
+    }
+
+    /**
+     * 获取到默认的地址信息并返回
+     * @return
+     */
+    @GetMapping("/default")
+    public Result<AddressBook> getDefaultAddress(){
+        //获取用户Id
+        Long userId = BaseContext.getCurrentId();
+        AddressBook defaultAddress = addressBookService.getDefaultAddressByUserId(userId);
+        if(defaultAddress!=null){
+            return Result.success(defaultAddress);
+        }
+        return Result.error("无默认地址");
+    }
+
+    /**
+     * 根据前端传递的addressBookId获取addressBook数据
+     * @param addressBookId
+     * @return
+     */
+    @GetMapping("/{addressBookId}")
+    public Result<AddressBook> getAddressBookById(@PathVariable Long addressBookId){
+        AddressBook addressBook = addressBookService.getById(addressBookId);
+        if(addressBook!=null){
+            return Result.success(addressBook);
+        }
+        return Result.error("地址获取失败，请重试");
+    }
+
+    /**
+     * 根据前端传递的addressbook数据更新地址信息
+     * @param addressBook
+     * @return
+     */
+    @PutMapping
+    public Result<String> updateAddressBook(@RequestBody AddressBook addressBook){
+        boolean b = addressBookService.updateById(addressBook);
+        if(b){
+            return Result.success("修改成功");
+        }
+        return Result.error("修改失败");
+    }
+
+    /**
+     * 根据前端传递的addressBook的Id删除指定的地址信息
+     * @param addressBookId
+     * @return
+     */
+    @DeleteMapping
+    public Result<String> deleteById(@RequestParam("ids") Long addressBookId){
+        log.info("addressBookId:{}",addressBookId);
+        boolean b = addressBookService.removeById(addressBookId);
+        if(b){
+            return Result.success("地址删除成功");
+        }
+        return Result.error("地址删除失败");
     }
 }

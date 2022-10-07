@@ -24,4 +24,10 @@ public interface AddressBookService extends IService<AddressBook> {
      * @return
      */
     boolean setDefaultAddressBook(AddressBook addressBook);
+
+    /**
+     * 获取默认地址信息
+     * @return
+     */
+    AddressBook getDefaultAddressByUserId(Long userId);
 }

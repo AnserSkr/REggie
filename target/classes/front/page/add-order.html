@@ -25,6 +25,7 @@
                 </div>
             </div>
             <div class="divContent">
+                <!--地址信息展示-->
                 <div class="divAddress">
                     <div @click="toAddressPage">                    
                         <div class="address">{{address.detail}}</div>
@@ -37,6 +38,8 @@
                     <div class="divSplit"></div>
                     <div class="divFinishTime">预计{{finishTime}}送达</div>
                 </div>
+
+                <!--购物车信息展示-->
                 <div class="order">
                     <div class="title">订单明细</div>
                     <div class="divSplit"></div>
@@ -58,6 +61,7 @@
                             </div>
                     </div>
                 </div>
+                <!--备注信息-->
                 <div class="note">
                     <div class="title">备注</div>
                     <van-field
@@ -71,6 +75,7 @@
                     />
                 </div>
             </div>
+            <!--订单状态动弹展示栏-->
             <div class="divCart">
                 <div :class="{imgCartActive: cartData && cartData.length > 0, imgCart:!cartData || cartData.length<1}"></div>
                 <div :class="{divGoodsNum:1===1, moreGoods:cartData && cartData.length > 99}" v-if="cartData && cartData.length > 0">{{ goodsNum }}</div>
@@ -189,7 +194,8 @@
                         const params = {
                             remark:this.note,
                             payMethod:1,
-                            addressBookId:this.address.id
+                            addressBookId:this.address.id,
+                            amount:this.goodsPrice
                         }
                         const res = await addOrderApi(params)
                         if(res.code === 1){

@@ -2,9 +2,12 @@ package com.reggie.web;
 
 import com.fasterxml.jackson.databind.ser.Serializers;
 import com.reggie.common.BaseContext;
+import com.reggie.common.CustomException;
 import com.reggie.common.Result;
 import com.reggie.entity.ShoppingCart;
+import com.reggie.entity.User;
 import com.reggie.service.ShoppingCartService;
+import com.reggie.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -24,6 +27,8 @@ import java.util.Map;
 public class ShoppingCartController {
     @Autowired
     ShoppingCartService shoppingCartService;
+    @Autowired
+    UserService userService;
 
     /**
      * 根据登录用户的ID获取用户的购物车信息
@@ -33,6 +38,11 @@ public class ShoppingCartController {
     public Result<List<ShoppingCart>> getShoppingCart(){
         // 获取登录用户的userId
         Long userId = BaseContext.getCurrentId();
+        User user = userService.getById(userId);
+        //如果没有查询到UserId对应的user说明此时session中保存的是后台用户，购物车不可用，直到前端用户登录为止
+        if(user==null){
+            throw new CustomException("NOTLOGIN");
+        }
         // 根据UserID查询到User下对应的ShoppingCart
         List<ShoppingCart> shoppingCarts = shoppingCartService.getAllByUserId(userId);
         if(shoppingCarts!=null){
@@ -81,8 +91,10 @@ public class ShoppingCartController {
      */
     @DeleteMapping("/clean")
     public Result<String> cleanShoppingCart(){
+        // 首先获取登录用户的Id
+        Long userId = BaseContext.getCurrentId();
         // 删除UserID下的所有ShoppingCart
-        boolean b = shoppingCartService.delAllShoppingCartByUserId();
+        boolean b = shoppingCartService.delAllShoppingCartByUserId(userId);
         if(b){
             return Result.success("购物车清楚成功");
         }

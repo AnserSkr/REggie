@@ -39,8 +39,9 @@ public interface ShoppingCartService extends IService<ShoppingCart> {
 
     /**
      * 根据UserId删除所有的shoppingCart
+     * @param userId
      * @return
      */
-    boolean delAllShoppingCartByUserId();
+    boolean delAllShoppingCartByUserId(Long userId);
 
 }
