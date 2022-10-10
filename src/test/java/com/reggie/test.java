@@ -4,6 +4,7 @@ import com.reggie.common.Result;
 import com.reggie.utils.ValidateCodeUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.Random;
@@ -14,7 +15,7 @@ import java.util.Random;
  * @Description: com.reggie
  * @version: 1.0
  */
-@SpringBootApplication
+@SpringBootTest
 public class test {
 
     @Test
@@ -26,6 +27,7 @@ public class test {
             System.out.println(code);
         }
     }
+
     @Test
     public void testRandom(){
         Random random = new Random();

@@ -13,13 +13,17 @@ spring:
       username: root
       password: root
       type: com.alibaba.druid.pool.DruidDataSource
+  #关闭SpringBoot图标显示
+  main:
+    banner-mode: off
 
 mybatis-plus:
   configuration:
     #在映射实体或者属性时，将数据库中表名和字段名中的下划线去掉，按照驼峰命名法映射，默认开启，可以不用手动设置
     #如 表名 address_book --> 类名AddressBook  字段名user_name --> 属性名UserName
     map-underscore-to-camel-case: true
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    #关闭mysql日志
+    #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   type-aliases-package: com.reggie.entity
   global-config:
     db-config:
@@ -27,6 +31,8 @@ mybatis-plus:
       logic-delete-value: isDelete
       logic-delete-field: 1
       logic-not-delete-value: 0
+    #关闭Mybatis图标显示
+    banner: off
 #  mapper-locations: classpath*:/com/reggie/mapper
 reggie:
   path: G:\Code WorkSpace\Reggie\images\
